@@ -536,17 +536,9 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.m-auto{
-  margin: auto;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
-}
-
-.mb-36{
-  margin-bottom: 9rem;
 }
 
 .flex{
@@ -563,15 +555,6 @@ video {
 
 .justify-between{
   justify-content: space-between;
-}
-
-.bg-slate-400{
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'images\/mobile\/image-header\'\)\]{
-  background-image: url('images/mobile/image-header');
 }
 
 .bg-\[url\(\'images\/mobile\/image-header\.jpg\'\)\]{
@@ -628,10 +611,6 @@ video {
 
 .uppercase{
   text-transform: uppercase;
-}
-
-.leading-4{
-  line-height: 1rem;
 }
 
 .tracking-wider{
