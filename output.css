@@ -570,6 +570,10 @@ video {
   }
 }
 
+.z-10{
+  z-index: 10;
+}
+
 .m-auto{
   margin: auto;
 }
@@ -614,6 +618,22 @@ video {
 
 .bg-\[url\(\'images\/mobile\/image-header\.jpg\'\)\]{
   background-image: url('images/mobile/image-header.jpg');
+}
+
+.bg-\[url\(\'images\/mobile\/gallary-orange\.jpg\'\)\]{
+  background-image: url('images/mobile/gallary-orange.jpg');
+}
+
+.bg-\[url\(\'images\/mobile\/image-graphic-design\.jpg\'\)\]{
+  background-image: url('images/mobile/image-graphic-design.jpg');
+}
+
+.bg-\[url\(\'images\/mobile\/image-gallary-orange\.jpg\'\)\]{
+  background-image: url('images/mobile/image-gallary-orange.jpg');
+}
+
+.bg-\[url\(\'images\/mobile\/image-gallery-orange\.jpg\'\)\]{
+  background-image: url('images/mobile/image-gallery-orange.jpg');
 }
 
 .bg-cover{
@@ -686,6 +706,16 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-8xl{
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold{
