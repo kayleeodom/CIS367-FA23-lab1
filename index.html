@@ -18,9 +18,9 @@
 </head>
 <body class="font-sans">
 
-  <section class="landing bg-[url('images/mobile/image-header.jpg')] bg-no-repeat bg-cover">
-    <header class="flex justify-between px-10 py-20">
-      <a href="#"><img src="images/logo.svg" alt="sunny side logo"></a>
+  <section class="landing bg-[url('images/mobile/image-header.jpg')] bg-no-repeat bg-cover md:bg-[url('images/desktop/image-header.jpg')] md:h-full ">
+    <header class="flex justify-between px-10 py-20 md:py-10">
+      <a href="#"><img src="images/logo.svg" alt="sunny side logo" ></a>
       <a href="" id="menuBtn"><img src="images/icon-hamburger.svg" alt=""></a>
       <!--<nav></nav>-->
     </header>
@@ -37,16 +37,16 @@
   Contact-->
 
   <!--<div class="container m-auto"></div>-->
-  <section class="two flex flex-col bg-white md:flex-row-reverse">
+  <section class="two flex flex-col bg-white md:flex-row-reverse md:items-center">
 
     <div class="lg:w-1/2 content-stretch object-cover">
       <img src="images/mobile/image-transform.jpg" alt="" class="w-full">
     </div>
 
-    <div class="lg:w-1/2 p-12 text-center">
+    <div class="lg:w-1/2 p-12 text-center md:text-left">
       <h2 class="font-serif text-5xl pt-6 text-center md:text-left">Transform your brand</h2>
     
-      <p class="py-8 text-center text-xl leading-relaxed text-dark-grayish-blue md:text-left">
+      <p class="py-8 text-center text-xl leading-relaxed text-dark-grayish-blue md:text-left md:text-2xl">
         We are a full-service creative agency specializing in helping brands grow fast. 
         Engage your clients through compelling visuals that do most of the marketing for you.
       </p>
@@ -56,13 +56,13 @@
 
   </section>
 
-  <section class="three two flex flex-col md:flex-row">
+  <section class="three two flex flex-col md:flex-row md:items-center">
     
     <div class="lg:w-1/2 content-stretch object-cover">
       <img src="images/mobile/image-stand-out.jpg">
     </div>
 
-    <div class="lg:w-1/2 p-12 text-center ">
+    <div class="lg:w-1/2 p-12 text-center md:text-left">
       <h2 class="font-serif text-5xl pt-6 text-center md:text-left">
         Stand out to the right audience
       </h2>
@@ -72,19 +72,20 @@
         and copywriters, we’ll build and extend your brand in digital places. 
       </p>
 
-      <a href="" class="btn uppercase font-serif text-center md:text-left">Learn more</a>
+      <a href="" class="btn_pink uppercase font-serif text-center ">Learn more</a>
     </div>
   </section>
 
+
   <section class="four flex flex-col md:flex-row">
-    <div class="md:w-1/2 relative">
+    <div class="relative">
       <img src="images/mobile/image-graphic-design.jpg" alt="" class="w-full"/>
       <div class="absolute top-2/3 text-center w-full ">
-        <h1 class="font-serif text-5xl pt-6 text-center top-2/3 text-dark-desaturated-cyan">
+        <h2 class="font-serif text-5xl pt-6 text-center top-2/3 text-dark-desaturated-cyan">
           Graphic design
-        </h1>
+        </h2>
   
-        <p class="py-8 text-center text-3xl leading-relaxed text-dark-desaturated-cyan">
+        <p class="py-8 text-center text-3xl leading-relaxed text-dark-desaturated-cyan md:text-2xl">
           Great design makes you memorable. We deliver artwork that underscores your brand message and captures
           potential clients’ attention.
         </p>
@@ -98,7 +99,7 @@
           Photography 
         </h1>
 
-        <p class="py-8 text-center text-3xl leading-relaxed text-dark-blue">
+        <p class="py-8 text-center text-3xl leading-relaxed text-dark-blue md:text-2xl">
           Increase your credibility by getting the most stunning, 
           high-quality photos that improve your business image.
         </p>
@@ -107,71 +108,99 @@
   </section>
 
 
-  <section class="flex flex-col p-16 items-center justify-center md:flex-row">
+  <section class="flex flex-col p-16 items-center justify-center">
     <div class="py-10">
-      <h2 class="text-3xl font-serif text-center text-grayish-blue tracking-widest">Client testimonials</h2>
+      <h2 class="text-3xl font-serif text-center text-grayish-blue tracking-widest md:pb-10">Client testimonials</h2>
     </div>
-    
-    <div class="">
-      <div class="flex justify-center p-4">
-        <img src="images/image-emily.jpg" class="rounded-full"/>
-      </div>
 
+    <section class="md:flex md:flex-row">
+      <div class="">
+        <div class="flex justify-center p-4">
+          <img src="images/image-emily.jpg" class="rounded-full"/>
+        </div>
+  
+        <div>
+          <p class="text-center py-4 text-2xl text-very-dark-desatured-blue leading-relaxed md: md:text-lg md:px-4 md:pb-8">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+          <h2 class="font-serif text-center text-2xl">
+            Emily R.
+          </h2>
+          <h3 class="text-center p-3 pb-12 text-xl font-sans text-dark-grayish-blue">
+            Marketing Director
+          </h3>
+        </div>
+      </div>
+  
       <div>
-        <p class="text-center py-4 text-2xl text-very-dark-desatured-blue leading-relaxed">
-          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-        </p>
-        <h2 class="font-serif text-center text-2xl">
-          Emily R.
-        </h2>
-        <h3 class="text-center p-3 pb-12 text-xl font-sans text-dark-grayish-blue">
-          Marketing Director
-        </h3>
+        <div class="flex justify-center">
+          <img src="images/image-thomas.jpg" class="rounded-full p-4">
+        </div>
+  
+        <div>
+          <p class="text-center py-4 text-2xl text-very-dark-desatured-blue leading-relaxed md:text-lg px-4 pb-8">
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <h2 class="font-serif text-center text-2xl">
+            Thomas S.
+          </h2>
+          <h3 class="text-center p-3 pb-12 text-xl text-dark-grayish-blue">
+            Chief Operating Officer
+          </h3>
+        </div>
       </div>
-    </div>
-
-    <div>
-      <div class="flex justify-center">
-        <img src="images/image-thomas.jpg" class="rounded-full p-4">
-      </div>
-
+  
       <div>
-        <p class="text-center py-4 text-2xl text-very-dark-desatured-blue leading-relaxed">
-          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-        </p>
-        <h2 class="font-serif text-center text-2xl">
-          Thomas S.
-        </h2>
-        <h3 class="text-center p-3 pb-12 text-xl text-dark-grayish-blue">
-          Chief Operating Officer
-        </h3>
+        <div class="flex justify-center">
+          <img class="rounded-full p-4" src="images/image-jennie.jpg">
+        </div>
+        <div>
+          <p class="text-center py-4 text-2xl text-very-dark-desatured-blue leading-relaxed md:text-lg px-4 pb-8">
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+          <h2 class="font-serif text-center text-2xl">
+            Jennie F.
+          </h2>
+          <h3 class="text-center p-3 pb-12 text-xl text-dark-grayish-blue">
+            Business Owner
+          </h3>
+        </div>
       </div>
-    </div>
-
-    <div>
-      <div class="flex justify-center">
-        <img class="rounded-full p-8" src="images/image-jennie.jpg">
-      </div>
-      <div>
-        <p class="text-center py-4 text-2xl text-very-dark-desatured-blue leading-relaxed">
-          Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-        </p>
-        <h2 class="font-serif text-center text-2xl">
-          Jennie F.
-        </h2>
-        <h3 class="text-center p-3 pb-12 text-xl text-dark-grayish-blue">
-          Business Owner
-        </h3>
-      </div>
-    </div>
+    </section>
 
   </section>
 
-  <section class="flex flex-row">
-    <div class=""><img src="images/mobile/image-gallery-milkbottles.jpg" class=""></div>
-    <div class=""><img src="images/mobile/image-gallery-orange.jpg" class=""></div>
-    <div class=""><img src="images/mobile/image-gallery-cone.jpg" class=""></div>
-    <div class=""><img src="images/mobile/image-gallery-sugar-cubes.jpg" class=""></div>
+  <section class="flex flex-col md:flex-row">
+    <div class="flex flex-row">
+      <source media="md" srcset="images/desktop/image-gallery-milkbottles">
+      <img src="images/mobile/image-gallery-milkbottles.jpg" class="w-1/2">
+
+      <source media="md" srcset="images/desktop/image-gallery-orange">
+      <img src="images/mobile/image-gallery-orange.jpg" class="w-1/2">
+    </div>
+
+    <div class="flex flex-row">
+      <source media="md" srcset="images/desktop/image-gallery-cone.jpg">
+      <img src="images/mobile/image-gallery-cone.jpg" class="w-1/2">
+
+      <source media="md" srcset="images/desktop/image-gallery-sugar-cubes.jpg">
+      <img src="images/mobile/image-gallery-sugar-cubes.jpg" class="w-1/2">
+    </div>
+
+    <!--<div class="w-1/2 ml-auto flex">
+      <source media="md" srcset="images/desktop/image-gallery-orange">
+      <img src="images/mobile/image-gallery-orange.jpg" class="">
+    </div>
+
+    <div class="w-1/2">
+      <source media="md" srcset="images/desktop/image-gallery-cone.jpg">
+      <img src="images/mobile/image-gallery-cone.jpg" class="">
+    </div>
+
+    <div class="w-1/2 ml-auto">
+      <source media="md" srcset="images/desktop/image-gallery-sugar-cubes.jpg">
+      <img src="images/mobile/image-gallery-sugar-cubes.jpg" class="">
+    </div>-->
   </section>
 
   <section class="flex flex-col p-28 bg-emerald-200">
