@@ -22,7 +22,15 @@
     <header class="flex justify-between px-10 py-20 md:py-10">
       <a href="#"><img src="images/logo.svg" alt="sunny side logo" ></a>
       <a href="" id="menuBtn"><img src="images/icon-hamburger.svg" alt=""></a>
-      <!--<nav></nav>-->
+      
+      <!--<div class="">
+        <nav>
+          <About
+          Services
+          Projects
+          Contact>
+        </nav>-
+      </div>-->
     </header>
 
     <h1 class="font-serif text-white font-bold text-8xl uppercase tracking-widest text-center py-36">We are creatives</h1>
@@ -31,12 +39,6 @@
 
   </section>
 
-  <!--About
-  Services
-  Projects
-  Contact-->
-
-  <!--<div class="container m-auto"></div>-->
   <section class="two flex flex-col bg-white md:flex-row-reverse md:items-center">
 
     <div class="lg:w-1/2 content-stretch object-cover">
@@ -77,29 +79,35 @@
   </section>
 
 
-  <section class="four flex flex-col md:flex-row">
-    <div class="relative">
-      <img src="images/mobile/image-graphic-design.jpg" alt="" class="w-full"/>
-      <div class="absolute top-2/3 text-center w-full ">
-        <h2 class="font-serif text-5xl pt-6 text-center top-2/3 text-dark-desaturated-cyan">
+  <section class="four flex flex-col md:flex-row md:items-center">
+    <div class="relative md:w-1/2">
+      <picture>
+        <source srcset="images/desktop/image-graphic-design.jpg" media="(min-width: 768px)" class="">
+        <img srcset="images/mobile/image-graphic-design.jpg" alt="" class="w-full"/>
+      </picture>
+      <div class="absolute top-2/3 text-center w-full md:top-3/5">
+        <h2 class="font-serif text-5xl pt-6 text-center text-dark-desaturated-cyan md:text-4xl">
           Graphic design
         </h2>
   
-        <p class="py-8 text-center text-3xl leading-relaxed text-dark-desaturated-cyan md:text-2xl">
+        <p class="py-8 text-center text-3xl leading-relaxed text-dark-desaturated-cyan md:text-xl md:px-36 md:pb-10">
           Great design makes you memorable. We deliver artwork that underscores your brand message and captures
           potential clients’ attention.
         </p>
       </div>
     </div>
 
-    <div class="relative">
-      <img src="images/mobile/image-photography.jpg" alt="" class="w-full">
-      <div class="absolute top-2/3 text-center w-full">
-        <h1 class="font-serif text-5xl pt-6 text-center top-2/3 text-dark-blue"> 
+    <div class="relative md:w-1/2">
+      <picture>
+        <source srcset="images/desktop/image-photography.jpg" media="(min-width: 768px)" class="">
+        <img srcset="images/mobile/image-photography.jpg" alt="" class="w-full">
+      </picture>
+      <div class="absolute top-2/3 text-center w-full md:top-3/5">
+        <h1 class="font-serif text-5xl pt-6 text-center text-dark-blue md:text-4xl"> 
           Photography 
         </h1>
 
-        <p class="py-8 text-center text-3xl leading-relaxed text-dark-blue md:text-2xl">
+        <p class="py-8 text-center text-3xl leading-relaxed text-dark-blue md:text-xl md:px-36 md:pb-10">
           Increase your credibility by getting the most stunning, 
           high-quality photos that improve your business image.
         </p>
@@ -172,35 +180,20 @@
 
   <section class="flex flex-col md:flex-row">
     <div class="flex flex-row">
-      <source media="md" srcset="images/desktop/image-gallery-milkbottles">
-      <img src="images/mobile/image-gallery-milkbottles.jpg" class="w-1/2">
+      <source media="(min-width: 768px)" srcset="images/desktop/image-gallery-milkbottles">
+      <img srcset="images/mobile/image-gallery-milkbottles.jpg" class="w-1/2">
 
-      <source media="md" srcset="images/desktop/image-gallery-orange">
-      <img src="images/mobile/image-gallery-orange.jpg" class="w-1/2">
+      <source media="(min-width: 768px)" srcset="images/desktop/image-gallery-orange">
+      <img srcset="images/mobile/image-gallery-orange.jpg" class="w-1/2">
     </div>
 
     <div class="flex flex-row">
-      <source media="md" srcset="images/desktop/image-gallery-cone.jpg">
-      <img src="images/mobile/image-gallery-cone.jpg" class="w-1/2">
+      <source media="(min-width: 768px)" srcset="images/desktop/image-gallery-cone.jpg">
+      <img srcset="images/mobile/image-gallery-cone.jpg" class="w-1/2">
 
-      <source media="md" srcset="images/desktop/image-gallery-sugar-cubes.jpg">
-      <img src="images/mobile/image-gallery-sugar-cubes.jpg" class="w-1/2">
+      <source media="(min-width: 768px)" srcset="images/desktop/image-gallery-sugar-cubes.jpg">
+      <img srcset="images/mobile/image-gallery-sugar-cubes.jpg" class="w-1/2">
     </div>
-
-    <!--<div class="w-1/2 ml-auto flex">
-      <source media="md" srcset="images/desktop/image-gallery-orange">
-      <img src="images/mobile/image-gallery-orange.jpg" class="">
-    </div>
-
-    <div class="w-1/2">
-      <source media="md" srcset="images/desktop/image-gallery-cone.jpg">
-      <img src="images/mobile/image-gallery-cone.jpg" class="">
-    </div>
-
-    <div class="w-1/2 ml-auto">
-      <source media="md" srcset="images/desktop/image-gallery-sugar-cubes.jpg">
-      <img src="images/mobile/image-gallery-sugar-cubes.jpg" class="">
-    </div>-->
   </section>
 
   <section class="flex flex-col p-28 bg-emerald-200">
@@ -218,7 +211,5 @@
       <img src="images/icon-pinterest.svg">
     </div>
   </section>
-
-  <!--Contact-->
 </body>
 </html>
